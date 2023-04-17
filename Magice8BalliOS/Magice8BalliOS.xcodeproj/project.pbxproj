@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA60596729E775D2004EB7D3 /* Magice8BalliOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60596629E775D2004EB7D3 /* Magice8BalliOSApp.swift */; };
+		CA60596929E775D2004EB7D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60596829E775D2004EB7D3 /* ContentView.swift */; };
+		CA60596B29E775D4004EB7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA60596A29E775D4004EB7D3 /* Assets.xcassets */; };
+		CA60596E29E775D4004EB7D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA60596D29E775D4004EB7D3 /* Preview Assets.xcassets */; };
+		CA60597829E775D5004EB7D3 /* Magice8BalliOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60597729E775D5004EB7D3 /* Magice8BalliOSTests.swift */; };
+		CA60598229E775D5004EB7D3 /* Magice8BalliOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60598129E775D5004EB7D3 /* Magice8BalliOSUITests.swift */; };
+		CA60598429E775D5004EB7D3 /* Magice8BalliOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60598329E775D5004EB7D3 /* Magice8BalliOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA60597429E775D5004EB7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA60595B29E775D2004EB7D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA60596229E775D2004EB7D3;
+			remoteInfo = Magice8BalliOS;
+		};
+		CA60597E29E775D5004EB7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA60595B29E775D2004EB7D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA60596229E775D2004EB7D3;
+			remoteInfo = Magice8BalliOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA60596329E775D2004EB7D3 /* Magice8BalliOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magice8BalliOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA60596629E775D2004EB7D3 /* Magice8BalliOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magice8BalliOSApp.swift; sourceTree = "<group>"; };
+		CA60596829E775D2004EB7D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA60596A29E775D4004EB7D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA60596D29E775D4004EB7D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA60597329E775D5004EB7D3 /* Magice8BalliOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Magice8BalliOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA60597729E775D5004EB7D3 /* Magice8BalliOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magice8BalliOSTests.swift; sourceTree = "<group>"; };
+		CA60597D29E775D5004EB7D3 /* Magice8BalliOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Magice8BalliOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA60598129E775D5004EB7D3 /* Magice8BalliOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magice8BalliOSUITests.swift; sourceTree = "<group>"; };
+		CA60598329E775D5004EB7D3 /* Magice8BalliOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magice8BalliOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA60596029E775D2004EB7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA60597029E775D5004EB7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA60597A29E775D5004EB7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA60595A29E775D2004EB7D3 = {
+			isa = PBXGroup;
+			children = (
+				CA60596529E775D2004EB7D3 /* Magice8BalliOS */,
+				CA60597629E775D5004EB7D3 /* Magice8BalliOSTests */,
+				CA60598029E775D5004EB7D3 /* Magice8BalliOSUITests */,
+				CA60596429E775D2004EB7D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA60596429E775D2004EB7D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA60596329E775D2004EB7D3 /* Magice8BalliOS.app */,
+				CA60597329E775D5004EB7D3 /* Magice8BalliOSTests.xctest */,
+				CA60597D29E775D5004EB7D3 /* Magice8BalliOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA60596529E775D2004EB7D3 /* Magice8BalliOS */ = {
+			isa = PBXGroup;
+			children = (
+				CA60596629E775D2004EB7D3 /* Magice8BalliOSApp.swift */,
+				CA60596829E775D2004EB7D3 /* ContentView.swift */,
+				CA60596A29E775D4004EB7D3 /* Assets.xcassets */,
+				CA60596C29E775D4004EB7D3 /* Preview Content */,
+			);
+			path = Magice8BalliOS;
+			sourceTree = "<group>";
+		};
+		CA60596C29E775D4004EB7D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA60596D29E775D4004EB7D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA60597629E775D5004EB7D3 /* Magice8BalliOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA60597729E775D5004EB7D3 /* Magice8BalliOSTests.swift */,
+			);
+			path = Magice8BalliOSTests;
+			sourceTree = "<group>";
+		};
+		CA60598029E775D5004EB7D3 /* Magice8BalliOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA60598129E775D5004EB7D3 /* Magice8BalliOSUITests.swift */,
+				CA60598329E775D5004EB7D3 /* Magice8BalliOSUITestsLaunchTests.swift */,
+			);
+			path = Magice8BalliOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA60596229E775D2004EB7D3 /* Magice8BalliOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA60598729E775D5004EB7D3 /* Build configuration list for PBXNativeTarget "Magice8BalliOS" */;
+			buildPhases = (
+				CA60595F29E775D2004EB7D3 /* Sources */,
+				CA60596029E775D2004EB7D3 /* Frameworks */,
+				CA60596129E775D2004EB7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magice8BalliOS;
+			productName = Magice8BalliOS;
+			productReference = CA60596329E775D2004EB7D3 /* Magice8BalliOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA60597229E775D5004EB7D3 /* Magice8BalliOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA60598A29E775D5004EB7D3 /* Build configuration list for PBXNativeTarget "Magice8BalliOSTests" */;
+			buildPhases = (
+				CA60596F29E775D5004EB7D3 /* Sources */,
+				CA60597029E775D5004EB7D3 /* Frameworks */,
+				CA60597129E775D5004EB7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA60597529E775D5004EB7D3 /* PBXTargetDependency */,
+			);
+			name = Magice8BalliOSTests;
+			productName = Magice8BalliOSTests;
+			productReference = CA60597329E775D5004EB7D3 /* Magice8BalliOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA60597C29E775D5004EB7D3 /* Magice8BalliOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA60598D29E775D5004EB7D3 /* Build configuration list for PBXNativeTarget "Magice8BalliOSUITests" */;
+			buildPhases = (
+				CA60597929E775D5004EB7D3 /* Sources */,
+				CA60597A29E775D5004EB7D3 /* Frameworks */,
+				CA60597B29E775D5004EB7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA60597F29E775D5004EB7D3 /* PBXTargetDependency */,
+			);
+			name = Magice8BalliOSUITests;
+			productName = Magice8BalliOSUITests;
+			productReference = CA60597D29E775D5004EB7D3 /* Magice8BalliOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA60595B29E775D2004EB7D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CA60596229E775D2004EB7D3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CA60597229E775D5004EB7D3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CA60596229E775D2004EB7D3;
+					};
+					CA60597C29E775D5004EB7D3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CA60596229E775D2004EB7D3;
+					};
+				};
+			};
+			buildConfigurationList = CA60595E29E775D2004EB7D3 /* Build configuration list for PBXProject "Magice8BalliOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA60595A29E775D2004EB7D3;
+			productRefGroup = CA60596429E775D2004EB7D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA60596229E775D2004EB7D3 /* Magice8BalliOS */,
+				CA60597229E775D5004EB7D3 /* Magice8BalliOSTests */,
+				CA60597C29E775D5004EB7D3 /* Magice8BalliOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA60596129E775D2004EB7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA60596E29E775D4004EB7D3 /* Preview Assets.xcassets in Resources */,
+				CA60596B29E775D4004EB7D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA60597129E775D5004EB7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA60597B29E775D5004EB7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA60595F29E775D2004EB7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA60596929E775D2004EB7D3 /* ContentView.swift in Sources */,
+				CA60596729E775D2004EB7D3 /* Magice8BalliOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA60596F29E775D5004EB7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA60597829E775D5004EB7D3 /* Magice8BalliOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA60597929E775D5004EB7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA60598429E775D5004EB7D3 /* Magice8BalliOSUITestsLaunchTests.swift in Sources */,
+				CA60598229E775D5004EB7D3 /* Magice8BalliOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA60597529E775D5004EB7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA60596229E775D2004EB7D3 /* Magice8BalliOS */;
+			targetProxy = CA60597429E775D5004EB7D3 /* PBXContainerItemProxy */;
+		};
+		CA60597F29E775D5004EB7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA60596229E775D2004EB7D3 /* Magice8BalliOS */;
+			targetProxy = CA60597E29E775D5004EB7D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA60598529E775D5004EB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA60598629E775D5004EB7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA60598829E775D5004EB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Magice8BalliOS/Preview Content\"";
+				DEVELOPMENT_TEAM = LNM39CFDB7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeeSeeWhy.Magice8BalliOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA60598929E775D5004EB7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Magice8BalliOS/Preview Content\"";
+				DEVELOPMENT_TEAM = LNM39CFDB7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeeSeeWhy.Magice8BalliOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA60598B29E775D5004EB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LNM39CFDB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeeSeeWhy.Magice8BalliOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magice8BalliOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Magice8BalliOS";
+			};
+			name = Debug;
+		};
+		CA60598C29E775D5004EB7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LNM39CFDB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeeSeeWhy.Magice8BalliOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magice8BalliOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Magice8BalliOS";
+			};
+			name = Release;
+		};
+		CA60598E29E775D5004EB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LNM39CFDB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeeSeeWhy.Magice8BalliOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Magice8BalliOS;
+			};
+			name = Debug;
+		};
+		CA60598F29E775D5004EB7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LNM39CFDB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeeSeeWhy.Magice8BalliOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Magice8BalliOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA60595E29E775D2004EB7D3 /* Build configuration list for PBXProject "Magice8BalliOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA60598529E775D5004EB7D3 /* Debug */,
+				CA60598629E775D5004EB7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA60598729E775D5004EB7D3 /* Build configuration list for PBXNativeTarget "Magice8BalliOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA60598829E775D5004EB7D3 /* Debug */,
+				CA60598929E775D5004EB7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA60598A29E775D5004EB7D3 /* Build configuration list for PBXNativeTarget "Magice8BalliOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA60598B29E775D5004EB7D3 /* Debug */,
+				CA60598C29E775D5004EB7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA60598D29E775D5004EB7D3 /* Build configuration list for PBXNativeTarget "Magice8BalliOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA60598E29E775D5004EB7D3 /* Debug */,
+				CA60598F29E775D5004EB7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA60595B29E775D2004EB7D3 /* Project object */;
+}
