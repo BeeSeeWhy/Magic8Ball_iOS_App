@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0C85F62A12B7180072F9EC /* CardFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0C85F52A12B7180072F9EC /* CardFlip.swift */; };
+		CA0C85F82A12B7480072F9EC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0C85F72A12B7480072F9EC /* CardView.swift */; };
 		CA60596729E775D2004EB7D3 /* Magice8BalliOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60596629E775D2004EB7D3 /* Magice8BalliOSApp.swift */; };
 		CA60596929E775D2004EB7D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60596829E775D2004EB7D3 /* ContentView.swift */; };
 		CA60596B29E775D4004EB7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA60596A29E775D4004EB7D3 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA0C85F52A12B7180072F9EC /* CardFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlip.swift; sourceTree = "<group>"; };
+		CA0C85F72A12B7480072F9EC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CA60596329E775D2004EB7D3 /* Magice8BalliOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magice8BalliOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA60596629E775D2004EB7D3 /* Magice8BalliOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magice8BalliOSApp.swift; sourceTree = "<group>"; };
 		CA60596829E775D2004EB7D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				CA60596829E775D2004EB7D3 /* ContentView.swift */,
 				CA60596A29E775D4004EB7D3 /* Assets.xcassets */,
 				CA60596C29E775D4004EB7D3 /* Preview Content */,
+				CA0C85F52A12B7180072F9EC /* CardFlip.swift */,
+				CA0C85F72A12B7480072F9EC /* CardView.swift */,
 			);
 			path = Magice8BalliOS;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			files = (
 				CA60596929E775D2004EB7D3 /* ContentView.swift in Sources */,
 				CA60596729E775D2004EB7D3 /* Magice8BalliOSApp.swift in Sources */,
+				CA0C85F82A12B7480072F9EC /* CardView.swift in Sources */,
+				CA0C85F62A12B7180072F9EC /* CardFlip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-  @State private var prediction = "8balllogo"
+  @State var isFaceUp = false
+  @State var imageIndex = 0
+  @State var dirIndex = 0
   
-  let answers = [
+  let images = [
+    "8balllogo",
     "answer1",
     "answer2",
     "answer3",
@@ -32,28 +35,37 @@ struct ContentView: View {
     "answer19",
     "answer20"
   ]
+  let directions: [(CGFloat, CGFloat, CGFloat)] = [(0,1,0), (1,0,0), (0,0,1)]
+  
+  private func flip() {
+    if !isFaceUp {
+      imageIndex = Int.random(in: 1...images.count - 1)
+      dirIndex = Int.random(in: 0...directions.count - 1)
+    } else {
+      imageIndex = 0
+      dirIndex = Int.random(in: 0...directions.count - 1)
+    }
+    isFaceUp.toggle()
+  }
   
   var body: some View {
     VStack {
-      Image(prediction)
+      Spacer().frame(height:80)
         
-      Button(action: {
-        self.prediction = self.answers.randomElement() ?? "Error"
-      }) {
-        Text("Ask a question")
-          .font(.headline)
-          .foregroundColor(Color("8ballblue"))
-          .padding()
-          .background(Color.white)
-          .cornerRadius(10)
+      VStack(spacing: 50) {
+        CardView(isFaceUp: isFaceUp,
+                 imageName: images[imageIndex],
+                 axis: directions[dirIndex])
+        Button( isFaceUp ? "Reset" : "Ask A Question") {
+          withAnimation(.easeInOut(duration: 1.0)) {
+            flip()
+          }
+        }
       }
-        
+      Spacer()
       }
-      .padding()
-      .frame(maxWidth: .infinity, maxHeight: .infinity)
-      .accentColor(Color.white)
-      .background(Color.black)
-      
+    .accentColor(Color.white)
+    .background(Color.black)
   }
 }
 
