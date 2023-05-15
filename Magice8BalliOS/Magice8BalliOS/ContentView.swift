@@ -56,12 +56,15 @@ struct ContentView: View {
         CardView(isFaceUp: isFaceUp,
                  imageName: images[imageIndex],
                  axis: directions[dirIndex])
-        Button( isFaceUp ? "Reset" : "Ask A Question") {
+        .onShake {
           withAnimation(.easeInOut(duration: 1.0)) {
             flip()
           }
         }
       }
+      Text(isFaceUp ? "Shake To Reset" : "Ask Question and Shake")
+        .font(.title)
+        .foregroundColor(.white)
       Spacer()
       }
     .accentColor(Color.white)
