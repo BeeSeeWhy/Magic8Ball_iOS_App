@@ -1,6 +1,6 @@
 //
 //  Flip.swift
-//  Magice8BalliOS
+//  Magic8BalliOS
 //
 //  Created by Brandon on 4/24/23.
 //

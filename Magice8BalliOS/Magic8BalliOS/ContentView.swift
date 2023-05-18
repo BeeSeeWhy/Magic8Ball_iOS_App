@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Magice8BalliOS
+//  Magic8BalliOS
 //
 //  Created by Brandon on 4/12/23.
 //

@@ -1,7 +1,7 @@
 //
 //  OnShake.swift
 //  https://www.hackingwithswift.com/quick-start/swiftui/how-to-detect-shake-gestures
-//  Magice8BalliOS
+//  Magic8BalliOS
 //
 //  Created by Brandon on 5/15/23.
 //
